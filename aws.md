@@ -25,7 +25,7 @@ aws_secret_access_key=asasdsdsdsd
 3. S3 파일 검색 \
 `aws s3 ls s3://fwcorp/.git/`
 4. 폴더 싱크 \
-`aws s3 sync . s3://fwcorp`
+`aws s3 sync . s3://fwcorp --delete`
 5. 버킷 생성(한국지역 안됨) \
 `aws s3api create-bucket --bucket test-bucket-989282 --region us-east-1`
 
@@ -50,4 +50,4 @@ aws_secret_access_key=asasdsdsdsd
  ```
  4. 호스팅 ON
  5. cloudflare 도메인 연결, CNAME에 @, 엔드포인트 이렇게 flattening 연결
- 6. https 연결
+ 6. SSL/TLS > Edge Certificates > Always Use HTTPS
