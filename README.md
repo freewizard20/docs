@@ -17,3 +17,7 @@
 ## npm
 
 1. `npm install`
+
+## VS code
+
+1. night owl color theme
