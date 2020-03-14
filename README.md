@@ -1,7 +1,7 @@
 # keys
 
 ## github
-
+ㄹㅈ
 1. `git remote set-url origin https://github.com/fwcorp/tradewise`
 
 ### git 계정변경
@@ -21,3 +21,9 @@
 ## VS code
 
 1. night owl color theme
+
+## Windows
+
+1. 모든 창 최소화/원래대로 Win + D
+2. 파일 탐색기 Win + E
+3. 창 이동/정리 : Win + 방향키
