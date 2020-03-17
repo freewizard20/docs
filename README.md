@@ -16,11 +16,12 @@
 
 ## npm
 
-1. `npm install`
+1. `npm install --save --global`
 
 ## VS code
 
 1. night owl color theme
+2. close all tabs : ctrl + k + w
 
 ## Windows
 
