@@ -25,7 +25,7 @@ aws_secret_access_key=asasdsdsdsd
 3. S3 파일 검색 \
 `aws s3 ls s3://fwcorp/.git/`
 4. 폴더 싱크 \
-`aws s3 sync . s3://fwcorp --delete`
+`aws s3 sync ./dist s3://fwcorp --delete`
 5. 버킷 생성(한국지역 안됨) \
 `aws s3api create-bucket --bucket test-bucket-989282 --region us-east-1`
 
