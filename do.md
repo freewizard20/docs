@@ -21,3 +21,10 @@
 - 플레이스토어에서 java keystore 이용 해서 pepk도구 다운로드
 - 같은 디렉토리에 놓고 
 - `java -jar pepk.jar --keystore=C:\fwcorp.jks --alias=key0 --output=C:\output.zip --encryptionkey=eb10fe8f7c7c9df715022017b00c6471f8ba8170b13049a11e6c09ffe3056a104a3bbe4ac5a955f4ba4fe93fc8cef27558a3eb9d2a529a2092761fb833b656cd48b9de6a --include-cert`
+
+## marketing
+
+- 직접 그 분야의 인플루언서가 된다
+- 인플루언서에게 홍보를 부탁한다(제휴는 비쌀테니 어필 제안으로)
+- 해당 분야의 광고를 한다
+- 
