@@ -27,4 +27,19 @@
 - 직접 그 분야의 인플루언서가 된다
 - 인플루언서에게 홍보를 부탁한다(제휴는 비쌀테니 어필 제안으로)
 - 해당 분야의 광고를 한다
-- 
+
+## dell mobile connect 다운
+
+- 공홈에서 드라이버 설치
+- [여기](https://www.windowslatest.com/2018/01/15/install-dell-mobile-connect-app-windows-10/?linkId=64176106) 다운
+- 스토어에서 업데이트 재설치.
+- 끝
+
+## xps 최적화
+
+- dell mobile connect
+- 공홈 드라이버 설치
+- 드라이버 자동 업데이트 프로그램?
+- dell power manager
+- throttlestop
+- opera browser
