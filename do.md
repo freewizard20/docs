@@ -43,3 +43,30 @@
 - dell power manager
 - throttlestop
 - opera browser
+- 제어판 전원 옵션
+- 오른쪽 아래 배터리 누르고 배터리 사용 앱 확인, 백그라운드 종료
+- the best way to extend battery life : not using the laptop
+- batteries are expendables. exchange battery in 18 months or so. totally affordable if needed.
+
+## throttlestop 사용법
+
+- options에 들어가서, ac / battery / battery-performance / throttle 설정
+- 오른쪽의 default profiles ac에 1, battery에 2, low 97 profile 2 설정
+- Misc에 battery monitoring, ac-on, start minimize, minimize on close, nvidia gpu
+- alarm에 dts 1, profile 4
+- 메인화면에서, ac일때 sheed shift 0~32
+- battery에서는 speed shift 255, disable turbo
+- battery-perf는 ss 0
+- throttle ss 64
+- fivr 들어가서
+- throttle일때 우측하단 turbo ratio limits > 29
+- cpu core, cpu cache > unlock adjustable voltage > offset voltage -149.4mV
+- ok - save voltages immediately 클릭
+- apply - ok
+- 자동실행 : 작업 스케쥴러 검색
+- 기본 작업 만들기
+- 트리거 : 로그온할때
+- 동작 : 프로그램 시작
+- 조건 : 박스 전부 해제. 잠깐 활성화해서 해제한다음 다시 해제
+- 설정에서 요청시 작업이 실행되도록 허용 제외하고 전부 체크해제
+- 재시작하고 작동확인.
