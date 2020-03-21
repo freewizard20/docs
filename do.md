@@ -48,6 +48,7 @@
 - the best way to extend battery life : not using the laptop
 - batteries are expendables. exchange battery in 18 months or so. totally affordable if needed.
 - power manager : battery extender(brightness 35), quiet fan
+- 윈도우 + r > msconfig 필요없는 서비스 사용해제
 
 ## throttlestop 사용법
 
