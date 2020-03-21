@@ -47,6 +47,7 @@
 - 오른쪽 아래 배터리 누르고 배터리 사용 앱 확인, 백그라운드 종료
 - the best way to extend battery life : not using the laptop
 - batteries are expendables. exchange battery in 18 months or so. totally affordable if needed.
+- power manager : battery extender(brightness 35), quiet fan
 
 ## throttlestop 사용법
 
