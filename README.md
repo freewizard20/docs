@@ -1,7 +1,6 @@
 # keys
 
 ## github
-ㄹㅈ
 1. `git remote set-url origin https://github.com/fwcorp/tradewise`
 
 ### git 계정변경
