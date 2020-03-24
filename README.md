@@ -60,3 +60,7 @@ fs.writeFile('public/CNAME', "traderfw.com", function(err) {});
 ## pip
 
 1. `pip install request`
+
+## linux
+
+1. 버전확인 `lsb_release -a`
