@@ -2,6 +2,7 @@
 
 ## github
 1. `git remote set-url origin https://github.com/fwcorp/tradewise`
+2. remote 주소 확인 `git config --get remote.origin.url`
 
 ### git 계정변경
 
