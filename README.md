@@ -56,3 +56,11 @@ fs.writeFile('public/CNAME', "traderfw.com", function(err) {});
 8. gh-pages 브랜치를 만든다.
 9. `npm run deploy` >> gh-pages 내용이 지워지면서 디플로이 내용이 들어간다.
 10. **주의** : gh-pages로 checkout 하지 말것. diff가 너무 심해서 못 돌아오고 에러나서 결국 로컬 싹 지우고 다시 깔아야한다.
+
+## pip
+
+1. `pip install request`
+
+## linux
+
+1. 버전확인 `lsb_release -a`

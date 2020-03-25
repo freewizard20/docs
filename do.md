@@ -80,3 +80,18 @@
 ## medium
 
 - twitter share dm
+- delete app
+
+## wsl2
+
+- powershell 관리자
+- `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
+- 재시작
+- 공홈 가서 [다운](https://docs.microsoft.com/ko-kr/windows/wsl/wsl2-kernel)
+- `wsl --set-version Ubuntu 2`
+- `wsl --set-default-version 2`
+- powershell에서 관리
+- `wsl --shutdown ubuntu`
+- VS code에서 wsl extension 다운로드
+- 우분투에서 `code .` 하면 끝. 디폴트 설정되서 다음부터 코드 열때 우분투로 열림.
+- 끝.
