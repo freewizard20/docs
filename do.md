@@ -84,6 +84,11 @@
 
 ## wsl2
 
+- wsl 설정가서 켠다.
+- 설정 > 백업 및 업데이트 > 개발자 모드 on
+- 윈스토어에서 wsl 검색해서 ubuntu 다운받는다.
+- 실행하면 끝.
+
 - powershell 관리자
 - `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
 - 재시작
