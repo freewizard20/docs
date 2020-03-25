@@ -101,3 +101,11 @@
 - VS code에서 wsl extension 다운로드
 - 우분투에서 `code .` 하면 끝. 디폴트 설정되서 다음부터 코드 열때 우분투로 열림.
 - 끝.
+
+## github linux에서 로그인없이 pull/push 자동화하는법
+
+- `git remote set-url origin git@github.com:fwcorp/keys.git`
+- ssh 키를 생성해야 한다. `ssh-keygen -t rsa -C gseongkyu79@gmail.com`
+- 비번은 아무거나
+- `cat ~/.ssh/id_rsa.pub` 에서 나온 내용을 github settings > security > ssh > 새로운 ssh 키에 입력해 준다.
+- 끝!
