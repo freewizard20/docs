@@ -108,4 +108,4 @@
 - ssh 키를 생성해야 한다. `ssh-keygen -t rsa -C gseongkyu79@gmail.com`
 - 비번은 아무거나
 - `cat ~/.ssh/id_rsa.pub` 에서 나온 내용을 github settings > security > ssh > 새로운 ssh 키에 입력해 준다.
-- 끝!
+- 끝!(vs code 작동확인)
