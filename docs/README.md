@@ -20,6 +20,14 @@ git checkout -t origin/gh-pages
 6. 사용자 계정 > 자격 증명 관리 > Windows 자격 증명 > github 토큰 삭제
 7. 이제 푸쉬하면 계정 변경 팝업 뜸. 끝!
 
+## github linux에서 로그인없이 pull/push 자동화하는법
+
+- `git remote set-url origin git@github.com:fwcorp/keys.git`
+- ssh 키를 생성해야 한다. `ssh-keygen -t rsa -C gseongkyu79@gmail.com`
+- 비번은 아무거나
+- `cat ~/.ssh/id_rsa.pub` 에서 나온 내용을 github settings > security > ssh > 새로운 ssh 키에 입력해 준다.
+- 끝!(vs code 작동확인)
+
 ## npm
 
 1. `npm install --save --global`

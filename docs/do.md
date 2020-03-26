@@ -102,10 +102,10 @@
 - 우분투에서 `code .` 하면 끝. 디폴트 설정되서 다음부터 코드 열때 우분투로 열림.
 - 끝.
 
-## github linux에서 로그인없이 pull/push 자동화하는법
+## MAC 주소 변경
 
-- `git remote set-url origin git@github.com:fwcorp/keys.git`
-- ssh 키를 생성해야 한다. `ssh-keygen -t rsa -C gseongkyu79@gmail.com`
-- 비번은 아무거나
-- `cat ~/.ssh/id_rsa.pub` 에서 나온 내용을 github settings > security > ssh > 새로운 ssh 키에 입력해 준다.
-- 끝!(vs code 작동확인)
+- `ipconfig` 에서 네트워크 어댑터의 IPv4 주소 확인(주소 맞는게 메인 네트워크 어댑터임)
+- `getmac /v /fo list`로 맥 주소 확인
+- 장치 관리자 > 네트워크 어댑터 오른 클릭 > 속성 > 고급 > Locally Administered Address
+- 2 ~ fffffeffff 정도 사이값으로 변환 가능.
+- 맥 주소 바뀌면 ip 바뀜.
