@@ -3,6 +3,12 @@
 ## github
 1. `git remote set-url origin https://github.com/fwcorp/tradewise`
 2. remote 주소 확인 `git config --get remote.origin.url`
+3. pull remote branch
+```
+git update remote
+git branch -r
+git checkout -t origin/gh-pages
+```
 
 ### git 계정변경
 
