@@ -109,3 +109,7 @@
 - 장치 관리자 > 네트워크 어댑터 오른 클릭 > 속성 > 고급 > Locally Administered Address
 - 2 ~ fffffeffff 정도 사이값으로 변환 가능.
 - 맥 주소 바뀌면 ip 바뀜.
+
+## OBS XPS 설정
+
+- 출력의 방법을 소프트웨어로 바꿔준다. 하드웨어 노노!
