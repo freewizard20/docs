@@ -32,6 +32,10 @@ git checkout -t origin/gh-pages
 - vs code 에서 푸쉬 되는지 확인. 될꺼임.
 - 끝!
 
+## git 머지컨플릭
+
+- vscode 브랜치쪽에서 아래 + 눌러주면 커밋된다.
+
 ## npm
 
 1. `npm install --save --global`
