@@ -15,7 +15,7 @@ git checkout -t origin/gh-pages
 1. `git config --global user.name fwcorp`
 2. `git config --global user.email gseongkyu79@gmail.com`
 3. `ssh-keygen -t rsa -b 4096 -C gseongkyu79@gmail.com`
-4. `clip < ~/.ssh/id_rsa.pub`
+4. `cat < ~/.ssh/id_rsa.pub`
 5. github settings > SSH 설정
 6. 사용자 계정 > 자격 증명 관리 > Windows 자격 증명 > github 토큰 삭제
 7. 이제 푸쉬하면 계정 변경 팝업 뜸. 끝!
@@ -28,7 +28,7 @@ git checkout -t origin/gh-pages
 - `cat ~/.ssh/id_rsa.pub` 에서 나온 내용을 github settings > security > ssh > 새로운 ssh 키에 입력해 준다.
 - `git config --global user.name fwcorp`
 - `git config --global user.email gseongkyu79@gmail.com`
-- 커맨드라인으로 git push origin master 한번 한다음에 호스트 연결 질문시 `yes` 정확히 타이핑
+- 커맨드라인으로 `git push origin master` 한번 한다음에 호스트 연결 질문시 `yes` 정확히 타이핑
 - vs code 에서 푸쉬 되는지 확인. 될꺼임.
 - 끝!
 
