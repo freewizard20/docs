@@ -1,5 +1,12 @@
 # 하는법
 
+## 유튜브 음악 다운로드
+
+- `npm -g install ytdl`
+- `sudo apt update`
+- `sudo apt install -y ffmpeg`
+- `ytdl http://www.youtube.com/watch?v=_HSylqgVYQI | ffmpeg -i pipe:0 -b:a 192K -vn myfile.mp3`
+
 ## ip
 
 - 내 ip : keys에서 `npm run ip`
