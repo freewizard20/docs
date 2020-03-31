@@ -1,5 +1,9 @@
 # 하는법
 
+## 화면돌리기
+
+- ctrl + alt + 방향키
+
 ## 유튜브 음악 다운로드
 
 - `npm -g install ytdl`
