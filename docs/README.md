@@ -32,6 +32,13 @@ git checkout -t origin/gh-pages
 - vs code 에서 푸쉬 되는지 확인. 될꺼임.
 - 끝!
 
+- wsl 네임서버 설정이 불가할 시 : `Temporary failure`
+- `sudo vim /etc/resolv.conf`
+```
+nameserver 58.227.193.227
+nameserver 221.143.20.131
+```
+
 ## git 머지컨플릭
 
 - vscode 브랜치쪽에서 아래 + 눌러주면 커밋된다.
