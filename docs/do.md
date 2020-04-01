@@ -1,5 +1,14 @@
 # 하는법
 
+## 직구프라이스 배대지 업데이트
+
+- add new data
+- add ssb on vueconsole, vueresult
+- add ssb logic on vueconsole.determinebutton
+- add value on vueresult.compareresult
+- add logic on setshipprice
+- add logic on getshipprice
+
 ## 화면돌리기
 
 - ctrl + alt + 방향키
