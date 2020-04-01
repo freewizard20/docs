@@ -56,3 +56,4 @@ aws_secret_access_key=asasdsdsdsd
 
  - `npm install -g serverless`
  - `serverless invoke local --function test_function`
+ - `serverless deploy`
