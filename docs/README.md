@@ -9,6 +9,11 @@ git update remote
 git branch -r
 git checkout -t origin/gh-pages
 ```
+4. .gitignore 특정 파일만 살리고 폴더 제외
+```
+google/data/*
+!google/data/dummy.html
+```
 
 ### git 계정변경
 
