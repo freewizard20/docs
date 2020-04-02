@@ -1,4 +1,4 @@
-# server
+# linux
 
 ## nvm설치
 
@@ -17,3 +17,8 @@
 - `pm2 stop all` : 전체 정지
 - `pm2 stop 0`
 - `pm2 delete all` : 전체 삭제
+
+## 비밀번호 변경
+
+- `su`
+- `passwd fw`ls
