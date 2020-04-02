@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ip" : "curl https://api.ipify.org"
+    "ip": "curl https://api.ipify.org"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fwcorp/keys/issues"
   },
-  "homepage": "https://github.com/fwcorp/keys#readme"
+  "homepage": "https://github.com/fwcorp/keys#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
 }

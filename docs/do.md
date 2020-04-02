@@ -1,5 +1,25 @@
 # 하는법
 
+## 직구프라이스 배대지 업데이트
+
+- add new data
+- add ssb on vueconsole, vueresult
+- add ssb logic on vueconsole.determinebutton
+- add value on vueresult.compareresult
+- add logic on setshipprice
+- add logic on getshipprice
+
+## 화면돌리기
+
+- ctrl + alt + 방향키
+
+## 유튜브 음악 다운로드
+
+- `npm -g install ytdl`
+- `sudo apt update`
+- `sudo apt install -y ffmpeg`
+- `ytdl http://www.youtube.com/watch?v=_HSylqgVYQI | ffmpeg -i pipe:0 -b:a 192K -vn myfile.mp3`
+
 ## ip
 
 - 내 ip : keys에서 `npm run ip`
@@ -12,6 +32,7 @@
 
 ## 배터리 설정 관리
 
+- `powercfg /batteryreport`
 - 환경변수 검색해서 나오는 창의 시각적 효과 전부 끄면 1시간정도 늘어남.
 - 배터리 사용량 분석에서 많이 쓰는 것들 백그라운드 실행 삭제.
 - 엣지 브라우저가 15 ~ 20%정도 효율이 좋음. 브라우저로 거의 다 하니까 유용할 듯
@@ -80,3 +101,39 @@
 ## medium
 
 - twitter share dm
+- delete app
+
+## wsl2
+
+- wsl 설정가서 켠다.
+- 설정 > 백업 및 업데이트 > 개발자 모드 on
+- 윈스토어에서 wsl 검색해서 ubuntu 다운받는다.
+- 실행하면 끝.
+
+- powershell 관리자
+- `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
+- 재시작
+- 공홈 가서 [다운](https://docs.microsoft.com/ko-kr/windows/wsl/wsl2-kernel)
+- `wsl --set-version Ubuntu 2`
+- `wsl --set-default-version 2`
+- powershell에서 관리
+- `wsl --shutdown ubuntu`
+- VS code에서 wsl extension 다운로드
+- 우분투에서 `code .` 하면 끝. 디폴트 설정되서 다음부터 코드 열때 우분투로 열림.
+- 끝.
+
+## MAC 주소 변경
+
+- `ipconfig` 에서 네트워크 어댑터의 IPv4 주소 확인(주소 맞는게 메인 네트워크 어댑터임)
+- `getmac /v /fo list`로 맥 주소 확인
+- 장치 관리자 > 네트워크 어댑터 오른 클릭 > 속성 > 고급 > Locally Administered Address
+- 2 ~ fffffeffff 정도 사이값으로 변환 가능.
+- 맥 주소 바뀌면 ip 바뀜.
+
+- ig 공유기 : [링크](http://192.168.219.1/main.asp)
+- 유선 설정 > 맥 클론 > 아무거나
+- 재부팅 > 끝.
+
+## OBS XPS 설정
+
+- 출력의 방법을 소프트웨어로 바꿔준다. 하드웨어 노노!
