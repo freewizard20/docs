@@ -14,6 +14,7 @@
 
 - pm2
 - [node-cron](https://github.com/node-cron/node-cron)
+- 서버 스트레스 테스트 : [Artillery](https://zoomkoding.github.io/web%EA%B0%9C%EB%B0%9C/nodejs/histime/2019/02/04/stress-test.html)
 
 ## 서버리스
 

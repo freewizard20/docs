@@ -21,4 +21,10 @@
 ## 비밀번호 변경
 
 - `su`
-- `passwd fw`ls
+- `passwd fw`
+
+## 안드 리눅스 anlinux 설치
+
+- termux 설치
+- `pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh`
+- `wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh`
