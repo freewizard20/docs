@@ -2,7 +2,7 @@ let fs = require('fs');
 let csvWriter = require('csv-write-stream');
 let cron = require('node-cron');
 
-let output_path1 = 'data/second ' + Date.now() + '.csv';
+let output_path1 = 'out2.csv';
 let output_path2 = 'out2.csv';
 
 writer1 = csvWriter({ headers: ["timestamp", "price"], sendHeaders: false });
