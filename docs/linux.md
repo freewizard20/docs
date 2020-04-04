@@ -9,6 +9,7 @@
 ## pm2
 
 - `pm2 start server.js update.js`
+- `pm2 start server.js --name server0`
 - `pm2 list`
 - `pm2 monit`
 - `pm2 logs`
