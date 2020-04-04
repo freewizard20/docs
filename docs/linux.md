@@ -29,3 +29,9 @@
 - `pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh`
 - `wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh`
 - termux에서 pkg install git nodejs 로 퍼페티어 제외한 모듈로 api콜 가능함. 그 이상은 실험해 보거나, anlinux 써야 할듯. anlinux는 가능한가? arm64 호환성을 알아봐야겠다.
+
+## termux ssh
+
+- 8022 포트임
+- `pkg install -y openssh`
+- `sshd`
