@@ -1,5 +1,9 @@
 # linux
 
+# 명령어
+
+- top : 성능 모니터링
+
 ## nvm설치
 
 - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
