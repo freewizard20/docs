@@ -35,3 +35,15 @@
 - 8022 포트임
 - `pkg install -y openssh`
 - `sshd`
+
+## termux multi screen
+
+- `vim ~/.termux/termux.properties`
+- add
+```
+shortcut.create-session = ctrl + t
+shortcut.next-session = ctrl + 1
+shortcut.previous-session = ctrl + 2
+```
+- `termux-reload-settings`
+
