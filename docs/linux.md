@@ -4,6 +4,7 @@
 
 - top : 성능 모니터링
 - ssh 232.12.232.232 -l username -p port : 포트 해당 유저네임으로 연결
+- ip주소 : `ip addr`
 
 ## nvm설치
 
@@ -63,3 +64,4 @@ shortcut.previous-session = ctrl + 2
 - p : 이전창
 - exit : 해당창 종료
 - left and right arrot : move cursor to left/right pane.
+- ctrl b 화살표 연속 : 
