@@ -52,3 +52,12 @@ shortcut.previous-session = ctrl + 2
 ```
 - `termux-reload-settings`
 
+## tmux
+
+- 진입 : `tmux`
+- `ctrl+b %` : 화면 좌우로 두개
+- " : 화면 위아래로 두개
+- c : 새 창
+- n : 다음창
+- p : 이전창
+- exit : 해당창 종료
