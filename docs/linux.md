@@ -65,3 +65,34 @@ shortcut.previous-session = ctrl + 2
 - exit : 해당창 종료
 - left and right arrot : move cursor to left/right pane.
 - ctrl b 화살표 연속 : 
+
+## vim
+
+- v + 커서로 선택
+- y로 복사
+- p로 페이스트
+
+## nginix proxy
+
+- 직접 포트 규칙을 설정해도 되지만 플랫폼마다 다르므로.. 최적화 서버는 포트를 여는 방식으로 node server 구동하자.
+- sudo apt-get install -y nginix
+- cd /etc/nginx/sites-available
+- sudo mv default default.bak
+- sudo vim default
+- 이거 추가
+```
+server {
+  listen 80;
+  server_name YOUR_SERVERS_IP_ADDRESS;
+
+  location / {
+    proxy_pass "http://127.0.0.1:8080"; <<<<<<<<<<<< 여기 포트로 보내주는거임!! EXPRESS 설정 필요
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection 'upgrade';
+    proxy_cache_bypass $http_upgrade;
+  }
+}
+```
+- sudo service nginx restart
+
