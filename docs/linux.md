@@ -62,3 +62,4 @@ shortcut.previous-session = ctrl + 2
 - n : 다음창
 - p : 이전창
 - exit : 해당창 종료
+- left and right arrot : move cursor to left/right pane.
