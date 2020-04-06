@@ -97,3 +97,50 @@ server {
 ```
 - sudo service nginx restart
 
+## [artillery](https://artillery.io/docs/cli-reference/)
+
+- `npm install -g artillery`
+- `artillery quick --duration 10 --rate 30 -n 20 http://34.73.22.232`
+- make json file
+```
+{
+  "config": {
+    "target": "http://localhost:3000",
+    "phases": [
+      {"duration": 60, "arrivalRate": 100}
+    ],
+    "defaults": {
+      "headers": {
+        "User-Agent": "Artillery"
+      }
+    },
+    "payload": {
+      "path": "./data.csv",
+      "fields": ["id", "password"]
+    }
+  },
+  "scenarios": [
+    {
+      "name": "Joining user",
+      "flow": [
+        { "get": { "url": "/" } },
+        {"post":
+          {
+            "url": "/users",
+            "json": {"id": "{{id}}", "password": "{{password}}" },
+            "capture": {"json": "$.id", "as": "username"}
+          }
+        },
+        {"get":
+          {
+            "url": "/users/{{username}}",
+            "match": {"json": "$.id", "value": "{{username}}"}
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+- `artillery run -o log.json jikguprice.json`
+- `artillery report log.json`
