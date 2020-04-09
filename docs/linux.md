@@ -6,6 +6,7 @@
 - ssh 232.12.232.232 -l username -p port : 포트 해당 유저네임으로 연결
 - ip주소 : `ip addr`
 - sudo apt-get install -y htop : 성능 모니터링(더좋음)
+- 프로세스 죽이기 : `kill 333`(프로세스넘버 : htop에서있음)
 
 ## nvm설치
 
