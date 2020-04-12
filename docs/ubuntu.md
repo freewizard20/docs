@@ -60,3 +60,10 @@ boot.efi
 - go through fs1 ~ 5: to find a machine key
 - change `cd System\Library\CoreServices` to `cd AAABB-AAB-AA-1234\System\Library\CoreServices`
 - restart > might work. not tried.
+
+## laptop setup
+
+- set up keyboard shortcuts
+- set up right click
+- download chrome, vscode, android studio
+- disable alarm sound
