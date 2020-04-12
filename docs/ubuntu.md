@@ -55,7 +55,7 @@ boot.efi
 - ctrl q + y to exit
 - exit, continue
 - will not work
-- boot then type exit > continue again
+- boot then type exit > continue again(it boots here)
 - it worked like this, but change in startup.nsh might be needed
 - go through fs1 ~ 5: to find a machine key
 - change `cd System\Library\CoreServices` to `cd AAABB-AAB-AA-1234\System\Library\CoreServices`
