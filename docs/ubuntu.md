@@ -67,3 +67,38 @@ boot.efi
 - set up right click
 - download chrome, vscode, android studio
 - disable alarm sound
+- auto hide dock
+- install node, git, vim, tmux, htop, ytdl, ffmpeg
+- search sensors
+- do xps setup
+- language settings
+
+## gpu
+
+- check current gpu : lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+
+## cpu temp
+
+- sudo apt update
+- sudo apt install lm-sensors
+- sudo sensors-detect
+- sensors
+
+## tweaks
+
+- `sudo apt install gnome-tweaks
+- touch pad right click, dark theme`
+
+## kvm for android studio
+
+- check for availability : `kvm-ok`
+- 18.10 higher : `sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils`
+- else : `sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils`
+- add user groups
+```
+sudo adduser `id -un` libvirt
+sudo adduser `id -un` kvm
+```
+- check result : `virsh list --all`
+
+- add android studio : tools > create desktop entry
