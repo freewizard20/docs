@@ -2,7 +2,7 @@
 
 ## ex2 ssh연결
 
-- `ssh -i "test.pem" ubuntu@ec2-2323-2106-179-143.compute-1.amazonaws.com`
+- `sudo ssh -i "test.pem" ubuntu@ec2-2323-2106-179-143.compute-1.amazonaws.com`
 
 ## aws-cli d
 
