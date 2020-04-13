@@ -102,3 +102,12 @@ sudo adduser `id -un` kvm
 - check result : `virsh list --all`
 
 - add android studio : tools > create desktop entry
+
+## powertop
+
+- sudo apt-get install powertop
+- run : `sudo powertop`
+- calibrate : `powertop --calibrate`
+- report : `powertop --html=powertop`
+- `systemctl start powertop.service`
+- `systemctl enable powertop.service`
