@@ -7,9 +7,6 @@
 - 핸드폰 : 539ms, 프로세스 종료해도 프로세스 남아있음.
 - 재시작시 : 211ms - 성능저하의 원인은? 앱도 그런가? 우분투도 그런가? termux 문제인가?
 
-## wine
-
--
 
 ## 명령어
 
@@ -18,7 +15,7 @@
 - ip주소 : `ip addr`
 - sudo apt-get install -y htop : 성능 모니터링(더좋음)
 - 프로세스 죽이기 : `kill 333`(프로세스넘버 : htop에서있음)
-
+- iftop : `sudo apt install -y iftop` `sudo iftop`
 ## nvm설치
 
 - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
