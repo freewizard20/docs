@@ -1,5 +1,7 @@
 # living with ubuntu
 
+s
+
 ## yt
 
 ```
