@@ -1,6 +1,8 @@
 # living with ubuntu
 
-s
+## shortcode
+
+- log : `journalctl -e`
 
 ## yt
 
