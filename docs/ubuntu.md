@@ -3,6 +3,7 @@
 ## shortcode
 
 - log : `journalctl -e`
+- kernel version : `uname -r`
 
 ## yt
 
