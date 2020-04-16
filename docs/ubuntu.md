@@ -1,6 +1,8 @@
 # living with ubuntu
 
-s
+## utils
+
+- find process : `pidof chrome` `ps aus | grep -i chrome`
 
 ## yt
 
