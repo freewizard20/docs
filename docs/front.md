@@ -9,7 +9,7 @@
 expo init myproject
 cd myproject
 ```
-- expo hot reload dev env 로딩 : `expo start`
+- expo hot reload dev env 로딩 : `expo start` 또는 `expo android`
 - 같은 wifi에서 앱 실행시 hot reload.
 - 안드 avd 있는 상태에서 a 누르면 안드에서 실행, 핫 리로드 가능
 
