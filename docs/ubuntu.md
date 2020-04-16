@@ -1,8 +1,10 @@
 # living with ubuntu
 
-## utils
 
+## shortcode
 - find process : `pidof chrome` `ps aus | grep -i chrome`
+- log : `journalctl -e`
+- kernel version : `uname -r`
 
 ## yt
 
