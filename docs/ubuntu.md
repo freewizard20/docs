@@ -7,6 +7,7 @@
 - kernel version : `uname -r`
 - `ls -lt` : 시간순 정렬
 - zip dir : `zip -r -q myzip . *`
+- see disk usage : `
 
 ## yt
 
