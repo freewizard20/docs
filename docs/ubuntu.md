@@ -5,6 +5,7 @@
 - find process : `pidof chrome` `ps aus | grep -i chrome`
 - log : `journalctl -e`
 - kernel version : `uname -r`
+- `ls -lt` : 시간순 정렬
 
 ## yt
 
