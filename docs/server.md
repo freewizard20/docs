@@ -1,4 +1,4 @@
-# linux
+# server
 
 ## 성능
 
