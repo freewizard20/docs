@@ -8,7 +8,7 @@
 - `ls -lt` : 시간순 정렬
 - zip dir : `zip -r -q myzip . *`
 - see disk usage : `df`
-- list connected hard disk : `sudo lshw -class disk`
+- list connected hard disk : `sudo lshw -class disk`, `lsblk`
 - see list of mounted hardware : `findmnt`
 
 ## yt
