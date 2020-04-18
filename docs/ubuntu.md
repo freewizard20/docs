@@ -11,6 +11,16 @@
 - list connected hard disk : `sudo lshw -class disk`, `lsblk`
 - see list of mounted hardware : `findmnt`
 
+## format disk to exfat
+
+```
+sudo fdisk -l
+sudo wipefs -a /dev/sda
+sudo fdisk /dev/sda
+n > def > def > t > 7 > w
+sudo mkfs.exfat -n mydiskname /dev/sda
+```
+
 ## yt
 
 ```
