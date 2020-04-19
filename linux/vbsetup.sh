@@ -56,3 +56,5 @@ VBoxManage setextradata "${VM}" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "o
 VBoxManage setextradata "${VM}" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 VBoxManage setextradata "${VM}" "VBoxInternal2/EfiGraphicsResolution" "$RES"
 VBoxManage setextradata "${VM}" VBoxInternal2/EfiGopMode 4
+VBoxManage setextradata "${VM}" VBoxInternal/CPUM/IsaExts/AVX 0
+VBoxManage setextradata "${VM}" VBoxInternal/CPUM/IsaExts/AVX2 0
