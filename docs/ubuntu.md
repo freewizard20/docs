@@ -10,6 +10,7 @@
 - see disk usage : `df`
 - list connected hard disk : `sudo lshw -class disk`, `lsblk`
 - see list of mounted hardware : `findmnt`
+- move all files and directories : `mv -v ./* ../ext/`
 
 ## format disk to exfat
 
