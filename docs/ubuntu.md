@@ -11,6 +11,11 @@
 - list connected hard disk : `sudo lshw -class disk`, `lsblk`
 - see list of mounted hardware : `findmnt`
 - move all files and directories : `mv -v ./* ../ext/`
+- 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
+## encrypt file
+
+- ccencrypt <filename>
+- ccdecrypt <filename>
 
 ## format disk to exfat
 
