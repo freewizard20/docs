@@ -7,7 +7,7 @@ git status
 if [ $# -ge 1 ]; then
 	for arg in "$@"
 	do
-		commitmessage="${commitmessage} ${arg}"
+		commitmessage="${commitmessage} $arg"
 	done
 	git commit -m "${commitmessage}"
 else
