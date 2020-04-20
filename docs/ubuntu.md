@@ -12,6 +12,8 @@
 - see list of mounted hardware : `findmnt`
 - move all files and directories : `mv -v ./* ../ext/`
 - 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
+- open chrome : `google-chrome https://github.com`
+
 ## encrypt file
 
 - ccencrypt <filename>
