@@ -15,7 +15,7 @@
 - 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
 - open chrome : `google-chrome https://github.com`
 - check permissions : `ls -l filename.txt`
-
+- open default browser : `xdg-open https://google.com`
 ## tmux
 
 - copy/paste : `ctrl + b then [` + `ctrl + space` to select lines + `Alt + w` to copy to clipboard + move to desired pane + `ctrl + b then ]`
