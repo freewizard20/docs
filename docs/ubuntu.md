@@ -11,6 +11,7 @@
 - list connected hard disk : `sudo lshw -class disk`, `lsblk`
 - see list of mounted hardware : `findmnt`
 - move all files and directories : `mv -v ./* ../ext/`
+- copy directory : `cp -r ./api ../gcloud/`
 - 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
 - open chrome : `google-chrome https://github.com`
 
