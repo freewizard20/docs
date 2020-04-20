@@ -1,5 +1,5 @@
 #!/bin/bash
-#a
+#da
 commitmessage=""
 git add *
 git add -u
