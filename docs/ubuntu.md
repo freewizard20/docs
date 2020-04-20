@@ -14,7 +14,7 @@
 - copy directory : `cp -r ./api ../gcloud/`
 - 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
 - open chrome : `google-chrome https://github.com`
-
+- check permissions : `ls -l filename.txt`
 
 ## tmux
 
