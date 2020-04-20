@@ -15,6 +15,11 @@
 - 환경변수 설정 : `export PYTHON="/home/user/Downloads/python"`
 - open chrome : `google-chrome https://github.com`
 
+
+## tmux
+
+- copy/paste : `ctrl + b then [` + `ctrl + space` to select lines + `Alt + w` to copy to clipboard + move to desired pane + `ctrl + b then ]`
+
 ## encrypt file
 
 - ccencrypt <filename>
