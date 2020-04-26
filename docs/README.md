@@ -16,6 +16,11 @@ google/data/*
 ```
 5. 머지컨플릭 : 파일 가서 삭제하고 더할꺼 다 한 다음에 add 후에 `git commit` 하면 머지와 커밋이 동시에 일어남. 후에 `git push origin master`
 
+### git branch
+
+1. `git checkout -b newbranch` : make new branch and checkout to it
+
+
 ### git 계정변경
 
 1. `git config --global user.name fwcorp`
