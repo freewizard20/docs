@@ -1,5 +1,7 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:lutris-team/lutris
-sudo apt-get update
-sudo apt-get install -y lutris
+sudo snap install wine-platform-5-stable
+sudo snap install leagueoflegends --edge --devmode
+sudo snap refresh --candidate wine-platform-5-staging
+sudo snap refresh --candidate wine-platform-runtime
+sudo snap set system snapshots.automatic.retention=np
