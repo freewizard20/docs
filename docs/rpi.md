@@ -9,3 +9,19 @@
 ## security features
 
 - [security](https://raspberrypi.org/documentation/configuration/security.md)
+
+## vpn
+
+- `curl -L https://install.pivpn.io | bash`
+- do config(openvpn)
+- pivpn add >> make cert
+- do port forwarding
+- add ufw on boot
+- download openvpn client
+```
+sudo apt update
+sudo apt install openvpn -y
+```
+- move cert to client
+- change ip address port number to forwarded port
+- `sudo openvpn --config client.ovpn`

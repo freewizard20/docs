@@ -1,6 +1,8 @@
 #!/bin/bash
 #da
 commitmessage=""
+git fetch
+git pull
 git add *
 git add -u
 git status
