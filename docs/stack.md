@@ -1,15 +1,34 @@
 # work stack
 
+## collab
+
+- gsuite or basecamp
+
 ## design
 
 - xd, cc
 
-## develop
+## software engineering
 
-- github
-- node
-> react, react-native, electron
-- python
-> module dependent tasks
-- gcp
-- linode
+### javascript stack
+#### fe(bundling)
+
+#### be
+
+### python stack
+
+
+### back-end
+
+- gcp, linode
+- aws if necessary
+
+## trading
+
+### trading
+- freqtrade
+- python backend
+
+### data collection
+
+- axios, express, react
