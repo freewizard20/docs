@@ -1,5 +1,8 @@
 # server
 
+## ssh
+- `ssh-copy-id example_user@203.0.113.23`
+
 ## 성능
 
 - 집컴 : 77ms
