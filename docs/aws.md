@@ -4,9 +4,12 @@
 
 - `sudo ssh -i "test.pem" ubuntu@ec2-2323-2106-179-143.compute-1.amazonaws.com`
 
-## aws-cli d
+## aws-cli
 
 1. `aws --version`
+2. `aws credentials`
+3. IAM create admin user and get access / private key > register
+4. `aws s3 ls` to test configuration.
 
 ### aws credentials
 
