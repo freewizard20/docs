@@ -1,5 +1,8 @@
 # living with ubuntu
 
+## turn off bluetooth at start
+
+- sudo systemctl disable bluetooth.service
 
 ## shortcode
 - find process : `pidof chrome` `ps aus | grep -i chrome`
