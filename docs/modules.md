@@ -1,5 +1,9 @@
 # modules
 
+## backend testing
+- npm i -g serve // serve -l 8080
+- npm i -g json-server db.json
+
 ## csv-write-stream
 
 - n개의 라이터 한번에 구동 가능.

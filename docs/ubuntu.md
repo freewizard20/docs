@@ -119,6 +119,12 @@ boot.efi
 - sudo sensors-detect
 - sensors
 
+## shell
+
+- change shell `chsh`
+- current shell `echo $SHELL`
+- shells available `/etc/shells`
+
 ## tweaks
 
 - `sudo apt install gnome-tweaks
