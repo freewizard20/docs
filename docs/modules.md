@@ -1,8 +1,10 @@
 # modules
 
 ## backend testing
+
 - npm i -g serve // serve -l 8080
 - npm i -g json-server db.json
+- npm install -g nodemon >> auto reload
 
 ## csv-write-stream
 
@@ -11,6 +13,6 @@
 
 ## serverless
 
- - `npm install -g serverless`
- - `serverless invoke local --function test_function`
- - `serverless deploy`
+- `npm install -g serverless`
+- `serverless invoke local --function test_function`
+- `serverless deploy`

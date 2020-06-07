@@ -8,4 +8,6 @@
 ## VS code
 
 1. night owl color theme
-2. close all tabs : ctrl + k + w
+2. react es7 snippets
+- rce for class component
+- rfce for function component

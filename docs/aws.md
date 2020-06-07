@@ -59,7 +59,9 @@ aws_secret_access_key=asasdsdsdsd
  5. cloudflare 도메인 연결, CNAME에 @, 엔드포인트 이렇게 flattening 연결
  6. SSL/TLS > Edge Certificates > Always Use HTTPS
 
- ### serverless
+## lambda
+
+### serverless
 
  - `npm install -g serverless`
  - `serverless invoke local --function test_function`
