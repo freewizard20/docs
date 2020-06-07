@@ -11,3 +11,4 @@
 2. react es7 snippets
 - rce for class component
 - rfce for function component
+- rconst for constructor
