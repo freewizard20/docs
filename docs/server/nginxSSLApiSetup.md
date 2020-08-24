@@ -11,6 +11,11 @@ sudo systemctl enable nginx
 
 2. certbot ssl cert 
 
+- renew(90 days)
+```
+sudo letsencrypt renew
+```
+
 - do https redirect
 
 ```
