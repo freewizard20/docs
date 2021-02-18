@@ -9,7 +9,12 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-2. certbot ssl cert
+2. certbot ssl cert 
+
+- renew(90 days)
+```
+sudo letsencrypt renew
+```
 
 - do https redirect
 
@@ -19,7 +24,7 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install python-certbot-nginx
-sudo certbot --nginx
+sudo certbot --nginx // do this every 3 months?
 ```
 
 3. nginx reverse proxy
